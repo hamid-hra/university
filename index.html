@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // اگر کاربر به پایین صفحه اسکرول کرده باشد، دکمه نمایش داده می‌شود
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").classList.add("showBtn");
+  } else {
+    document.getElementById("myBtn").classList.remove("showBtn");
+  }
+}
+
+// زمانی که کاربر روی دکمه کلیک می‌کند، به بالای صفحه منتقل می‌شود
+function topFunction() {
+  document.body.scrollTop = 0; // برای مرورگر سافاری
+  document.documentElement.scrollTop = 0; // برای مرورگر‌های دیگر
+}
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">صفحه اصلی</a></li>
+            <li><a href="product.html">محصولات</a></li>
+            <li><a href="">تماس با ما</a></li>
+            <li><a href="register.html">عضویت/ورود</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>به فروشگاه ما خوش آمدید</h1>
+        <p>خرید اینترنتی به راحتی!</p>
+    </header>
+    <main>
+        <section class="product" >
+            <img src="pic/1.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product">
+            <img src="pic/2.jpg" alt="محصول ۲">
+            <h2>محصول ۲</h2>
+            <p>قیمت: ۱۵۰ هزار تومان</p>
+            <a href="product.html">
+            <button>جزئیات</button>
+            </a>
+        </section>
+        <section class="product">
+            <img src="pic/3.jpg" alt="محصول ۳">
+            <h2>محصول ۳</h2>
+            <p>قیمت: ۲۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/4.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/5.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/6.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/7.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/8.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/9.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/10.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/1.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product">
+            <img src="pic/2.jpg" alt="محصول ۲">
+            <h2>محصول ۲</h2>
+            <p>قیمت: ۱۵۰ هزار تومان</p>
+            <a href="product.html">
+            <button>جزئیات</button>
+            </a>
+        </section>
+        <section class="product">
+            <img src="pic/3.jpg" alt="محصول ۳">
+            <h2>محصول ۳</h2>
+            <p>قیمت: ۲۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/4.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/5.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/6.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/7.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/8.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/9.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <section class="product" >
+            <img src="pic/10.jpg" alt="محصول ۱">
+            <h2>محصول ۱</h2>
+            <p>قیمت: ۱۰۰ هزار تومان</p>
+            <button>جزئیات</button>
+        </section>
+        <button onclick="topFunction()" id="myBtn" class="showBtn">بازگشت به بالای صفحه</button>
+    </main>
+    <footer>
+        <p>&copy; تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
